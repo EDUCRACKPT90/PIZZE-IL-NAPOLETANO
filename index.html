@@ -1,38 +1,44 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pizze Il Napolitano</title>
+    <title>Pizze Il Napoletano</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="js/main.js">
 
 
 </head>
+
 <body>
     <header>
-        <div id="header-cointainer">
+        <div id="header-container">
 
             <img src="images/logotipo.svg" alt="logo de Pizzeria Il Napoletano">
 
-        
+
             <nav>
-                 <ul>
-                 <li><a href="#">HOME</a></li>
-                 <li><a href="#">NOSOROS</a></li>
-                 <li><a href="#">SUCURSALES</a></li>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">NOSOROS</a></li>
+                    <li><a href="#">SUCURSALES</a></li>
                     <li><a href="#">CONTACTO</a></li>
                     <li><a href="#">PROMOS</a></li>
-                 </ul>
+                </ul>
             </nav>
 
         </div>
@@ -41,7 +47,7 @@
     <main>
         <h1 class="brand-header animate__animated animate__backInDown">Pizze Il Napoletano</h1>
         <h2 class="animate__animated animate__backInLeft">NUESTRAS PIZZAS</h2>
-        <ul>
+        <ul class="gallery">
             <li>
                 <div class="box">
                     <figure>
@@ -52,22 +58,25 @@
                             <time datetime="22/09/26"></time>
                         </figcaption>
                     </figure>
-                    <button></button>
+                    <button class="button" data-price="ARS$26.900" value="1">Añadir al carrito <i class="fa-solid fa-cart-shopping"></i></button>
                 </div>
             </li>
+
             <li>
                 <div class="box">
                     <figure>
-                        <img src="images/pizza-muzza-con-albahaca-y-tomate-cherry.png" alt="pizza-muzza-con-albahaca-y-tomate-cherry">
+                        <img src="images/pizza-muzza-con-albahaca-y-tomate-cherry.png"
+                            alt="pizza-muzza-con-albahaca-y-tomate-cherry">
                         <figcaption>
                             <h3>Pizza muzzarella con albahaca y tomate cherry</h3>
                             <p>ARS$28.750</p>
                             <time datetime="22/09/26"></time>
                         </figcaption>
                     </figure>
-                    <button></button>
+                    <button class="button" data-price="ARS$28.750" value="2">Añadir al carrito <i class="fa-solid fa-cart-shopping"></i></button>
                 </div>
             </li>
+
             <li>
                 <div class="box">
                     <figure>
@@ -78,9 +87,10 @@
                             <time datetime="22/09/26"></time>
                         </figcaption>
                     </figure>
-                    <button></button>
+                    <button class="button" data-price="ARS$33.500" value="3">Añadir al carrito<i class="fa-solid fa-cart-shopping"></i></button>
                 </div>
             </li>
+
             <li>
                 <div class="box">
                     <figure>
@@ -91,9 +101,10 @@
                             <time datetime=""></time>
                         </figcaption>
                     </figure>
-                    <button></button>
+                    <button class="button" data-price="ARS$39.900" value="4">Añadir al carrito <i class="fa-solid fa-cart-shopping"></i></button>
                 </div>
             </li>
+
             <li>
                 <div class="box">
                     <figure>
@@ -104,9 +115,10 @@
                             <time datetime="22/09/26"></time>
                         </figcaption>
                     </figure>
-                    <button></button>
+                    <button class="button" data-price="ARS$27.300" value="5">Añadir al carrito <i class="fa-solid fa-cart-shopping"></i></button>
                 </div>
             </li>
+
             <li>
                 <div class="box">
                     <figure>
@@ -117,9 +129,10 @@
                             <time datetime="22/09/26"></time>
                         </figcaption>
                     </figure>
-                    <button></button>
+                    <button class="button" data-price="ARS$28.500" value="6">Añadir al carrito <i class="fa-solid fa-cart-shopping"></i></button>
                 </div>
             </li>
+
             <li>
                 <div class="box">
                     <figure>
@@ -130,15 +143,17 @@
                             <time datetime="22/09/26"></time>
                         </figcaption>
                     </figure>
-                    <button></button>
+                    <button class="button" data-price="ARS$45.000" value="7">Añadir al carrito <i class="fa-solid fa-cart-shopping"></i></button>
                 </div>
             </li>
+
         </ul>
-        
+
     </main>
 
     <footer>
 
     </footer>
 </body>
+
 </html>
