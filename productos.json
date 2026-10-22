@@ -1,0 +1,65 @@
+[
+    {
+        "nombre": "Pizza Muzzarella",
+        "precio": 27438,
+        "fecha": "22 - 9 - 26",
+        "imagen": "images/pizza_muzza.webp",
+        "descripcion": "pizza muzzarella con ingredientes traidos directo de italia"
+    },
+
+    {
+        "nombre": "pizza muzza con albahaca y tomate cherry",
+        "precio": 29325,
+        "fecha": "22 - 9 - 26",
+        "imagen": "images/pizza-muzza-con-albahaca-y-tomate-cherry.png",
+        "descripcion": "pizza muzzarella con más sabor y calidad italiana"
+    },
+
+    {
+        "nombre": "pizza pepperoni",
+        "precio": 34170,
+        "fecha": "22 - 9 - 26",
+        "imagen": "images/pizza-pepperoni.webp",
+        "descripcion": "pizza de pepperoni y con un buen queso"
+    },
+
+    {
+        "nombre": "pizza margarita",
+        "precio": 40628,
+        "fecha": "22 - 9 - 26",
+        "imagen": "images/pizza-margarita.webp",
+        "descripcion": "pizza margarita, tipica de italia"
+    },
+
+    {
+        "nombre": "pizza napolitana",
+        "precio": 27846,
+        "fecha": "22 - 9 - 26",
+        "imagen": "images/pizza-napolitana.webp",
+        "descripcion": "pizza napolitana, el corazon de nuestro local"
+    },
+
+    {
+        "nombre": "pizza jamon y queso",
+        "precio": 29070,
+        "fecha": "22 - 9 - 26",
+        "imagen": "images/pizza-jamon-y-queso.webp",
+        "descripcion": "la clasica de las pizzas"
+    },
+
+    {
+        "nombre": "pizza jamon queso azul y morron",
+        "precio": 45900,
+        "fecha": "22 - 9 - 26",
+        "imagen": "images/pizza-jamon-queso-azul-y-morron.webp",
+        "descripcion": "la mejor de nuestras pizzas"
+    },
+
+    {
+        "nombre": "pizza san martin",
+        "precio": 20500,
+        "fecha": "22 - 10 - 26",
+        "imagen": "",
+        "descripcion": "pizza de muzza con aceituna negras y morrones asados"
+    }
+]
