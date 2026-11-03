@@ -57,9 +57,9 @@
 
     {
         "nombre": "pizza san martin",
-        "precio": 20500,
-        "fecha": "22 - 10 - 26",
-        "imagen": "",
-        "descripcion": "pizza de muzza con aceituna negras y morrones asados"
+        "precio": 40000,
+        "fecha": "3 - 11 - 26",
+        "imagen": "images/pizza_muzza_champi_palmitos_alcauciles.webp",
+        "descripcion": "Pizza de Muzzarella, Champignones, palmitos y alcauciles"
     }
 ]
