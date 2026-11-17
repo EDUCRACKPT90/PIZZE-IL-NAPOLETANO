@@ -1,6 +1,7 @@
 //============================================================
 //  ui.js: todo lo que se dibuja en pantalla (por ej: galería y modal).
 //============================================================
+import { filtrarPorNombre } from "./core/products.js";
 
 export function abrirModal(pizza) {
     Swal.fire({
@@ -15,6 +16,7 @@ export function abrirModal(pizza) {
 export async function renderizarGaleria(productos) {
 
     let gallery = document.querySelector('.gallery'); //Dentro del ul cargo dinamicamente li
+    gallery.innerHTML = '';
     productos.forEach(function (pizza) {
         let li = document.createElement("li");
         li.innerHTML = `
@@ -38,4 +40,12 @@ export async function renderizarGaleria(productos) {
 
         gallery.appendChild(li);
     })
+}
+
+export function configurarBuscador(productosOriginales){
+const inputBuscar=document.querySelector('#input-search');
+inputBuscar.addEventListener('input', (e)=> {
+renderizarGaleria(filtrarPorNombre(productosOriginales,e.target.value));
+});
+
 }
